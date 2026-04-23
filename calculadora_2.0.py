@@ -4,7 +4,7 @@ import tkinter as tk
 def agregar_valor(valor):
     texto = pantalla.get()
 
-    # limpiar si estaba en error
+    # limpiar error
     if texto == "Error" or texto == "No se puede dividir por 0":
         pantalla.delete(0, tk.END)
         texto = ""
